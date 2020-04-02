@@ -8,6 +8,7 @@ Can't be that hard right?
 Updates to follow unless I get bored.
 
 %%%%%%%%%%%% Notes %%%%%%%%%%%%%%%%%%%%
+
 need some kind of music player library like pygame or omxplayer to play the sound files
 
 sound files .wav must be Signed 16 bit Little Endian (S16_LE) or 8-bit (U8) to play with aplay from bash prompt or with pygame
@@ -27,7 +28,8 @@ might want to update everything first:
 wiring should go ground to button, button side 2 to gpio pin
 
 Use "Button(gpio pin #)" command to point to gpio pin in python
-gpio pin layout shown in gpio-pinout-diagram.png
+raspberrypi gpio pin layout diagrams can be found online
+
 gpio pins have 2 numbers to confuse you - pay attention to the ones on the outside labels in the picture, not the numbers that are written on the pins themselves
 
 Don't connect wire from voltage gpio pins to other ones without some resistor or something, it is bad.
